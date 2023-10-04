@@ -1,0 +1,147 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Amazon Ember Arabic",Arial,sans-serif;
+    box-sizing: border-box;
+}
+i{
+    font-size: 23px;
+    margin-right: 10px;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+#selectGove{
+    width: 58%;
+}
+.username,.email,.password,.confirmPassword
+{
+    width: 80%;
+    padding: 9px;
+    border-radius: 7px;
+    margin-left: 10px;
+  
+}
+.username:focus{
+    box-sizing: border-box;
+    outline:none;
+    /* background-color: #febd69; */
+    border: 0px solid #febd69;
+}
+.put{
+    width:350px;
+    height: 300px;
+    position:relative;
+    top: 30%;
+    left: 40%;
+  
+    background-color :white;
+    padding : 10px;
+    border-width: 1px;
+    border-style: ridge;
+    border-color:black;
+    border-radius: 8px; 
+    
+
+}
+put:focus{
+    background-color:lightblue;
+}
+.input{
+    width:400px;
+    height: auto;    
+    background-color :white;
+    padding : 10px;
+    border-width: 1px;
+    border-style: ridge;
+    border-color:#1876f2;
+    border-radius: 8px; 
+    
+}
+input:focus{
+    background-color:#febd69;
+}
+im{
+    width: 200px;
+    height: 200px;
+    padding-top: 50px;
+}
+header{
+    width: auto;
+    height: 20%;
+    text-align: center;
+    padding-top: 30px;
+}
+
+footer{
+    background-color:rgb(245, 245, 245);
+    margin-bottom: 0%;
+    height: 170px;
+    margin-top: 20px;
+    padding: 35px;
+}
+
+#sign{
+    
+  background-color: rgb(26, 252, 26);
+  border: none;
+  color: black;
+  padding: 15px 32px;
+    margin-top: 20px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  padding: 14px;
+  border-radius :40px;
+  width:100% ;
+  border-color:blue;
+  }
+  .copy{
+    font-size:0.875em ;
+    text-align: center;
+  }
+.ink{
+    text-decoration: none;
+    color: blue;
+    
+
+
+}
+a:hover{
+    text-decoration: underline;
+    color:orange;
+}
+.zft{
+    width:500px;
+    border-width: 50px;
+    border-color: blue;
+    text-align: center;
+    position:relative;
+    left: 35%;
+
+    
+
+}
+
+ .hr{
+    width: 50px;
+    display: inline-block;
+   
+ }
+ .are{
+    width: 250px;
+    display: inline-block;
+    color: #767676;
+
+ }
+ .btn{
+    border-radius: 8px;
+    width: 350px;
+ }
+
+ /*bootstrap*/
+ .form-control{
+    display: inline-block;
+ }
+  /*bootstrap*/

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edite Profile Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet"  href="bootstrap.min.css">
+	<link rel="stylesheet"  href="main.css">
+    <link href="pro.css" rel="stylesheet">
+    <link rel="stylesheet" href="faceform.css">
+    
+</head>
+<body>
+    <header>
+    <a href="#"> 
+       <img src="f.png" alt="" id="im">
+    </a>
+        
+    </header>
+    <br>
+    <section>
+        <div class="input">
+
+        <form id="signupform"  action="login.html" method="post"> 
+            <caption><h2>create a new account</h2></caption>
+            <div class="input-control">
+                <label for="username">Username</label><br><i class="fa-solid fa-user"></i><input class="form-control form-control-lg username" id="username" name="username" type="text" value="" >
+                
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="email">Enter your email</label><br><i class="fa-solid fa-envelope"></i><input class="form-control form-control-lg email" id="email" name="email2" type="email" value required>
+                <div class="E"></div>
+            </div>
+            <div class="input-control">
+                <label for="password">Password</label><br><i class="fa-solid fa-lock"></i><input class="form-control form-control-lg password" id="password" name="password2"  type="password"  value="" >
+                <div class=""></div>
+            </div>
+            <div class="input-control">
+                <label for="confirmPassword">Password again</label><br><i class="fa-solid fa-key"></i><input class="form-control form-control-lg confirmPassword"  id="confirmPassword"name="confirmPassword" type="password" value="" >
+                <div id="c"></div>
+                <br>
+
+            </div>
+			<div class="input-control">
+				<label>Country</label>
+                <i class="fa-solid fa-location-pin"></i>
+                <select id="selectGove" name="selectGove" class="form-control form-control-lg">
+					<option value="Egypt">Egypt</option>
+					<option value="sudan">sudan</option>
+					<option value="Germany">Germany</option>
+					<option value="Syria">Syria</option>
+					<option value="Canada">Canada</option>
+					<option value="France">France</option>
+					<option value="Argentina">Argentina</option>
+					<option value="Australia">Australia</option>
+					<option value="Saudi Arabia">Saudi Arabia</option>
+					<option value="United Arab Emirates">United Arab Emirates</option>
+					<option value="Qatar">Qatar</option>
+					<option value="Lebanon">Lebanon</option>
+				</select>
+
+            </div>
+
+
+
+            <button type="submit"  id="sign" >Save</button>
+          
+        </form>
+    
+        </div>
+  
+    </section>
+    <div>
+
+    </div>
+    <br>
+    <br> 
+        <footer align="center">
+            <a class="ink" href="#">Terms of use </a>
+            <a class="ink" href="#">privacy notice</a>
+            <a class="ink" href="#">Help</a>
+            
+            <br>
+
+<div class="Copy">
+           <br>
+           Copyright © 1996-2023 Amazon.com or its affiliates
+            </div>
+            
+
+            </footer>
+            
+			<script src="faceform.js"></script>
+            <script src="../general/js/jquery-3.3.1.min.js"></script>
+            <script src="../general/js/popper.min.js"></script>
+            <script src="../general/js/bootstrap.min.js"></script>
+</body>
+</html>
